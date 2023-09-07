@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import MainInput from './components/MainInput'
+import MainText from './components/MainText'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	let users = [
+		{
+			name: 'Kanat',
+			price: '50$',
+		},
+	]
+	console.log(users)
+	return (
+		<div className='App'>
+			<MainText name={users[0].name} price={users[0].price}/>
+			<MainText name={users[0].name} price={users[0].price}/>
+			<MainInput />
+		</div>
+	)
 }
 
-export default App;
+export default App

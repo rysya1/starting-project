@@ -1,0 +1,9 @@
+.main_inp{
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius:30px ;
+    padding-left: 30px;
+    font-size: 25px;
+    outline: none;
+}
