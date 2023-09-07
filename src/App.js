@@ -12,6 +12,7 @@ function App() {
 	console.log(users)
 	return (
 		<div className='App'>
+			<h1>Hello World</h1>
 			<MainText name={users[0].name} price={users[0].price}/>
 			<MainText name={users[0].name} price={users[0].price}/>
 			<MainInput />
